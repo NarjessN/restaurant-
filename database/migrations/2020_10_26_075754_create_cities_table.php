@@ -18,7 +18,7 @@ class CreateCitiesTable extends Migration
             $table->String('name')->nulllable();
             $table->timestamps();
         });
-    }
+    
 
 
 
@@ -34,6 +34,8 @@ class CreateCitiesTable extends Migration
 
 
 
+
+    
     /**
      * Reverse the migrations.
      *
